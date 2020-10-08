@@ -1,0 +1,198 @@
+<resources>
+
+    <!-- Login and Registering -->
+    <string name="app_name">Smart Farm</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Dialog Messages -->
+    <string name="first_time_user_message">
+        Hey Champ!!, I noticed this is your first login.
+        Welcome to SmartFarm App, where we instill the best knowledge about farming to ambitious farmers..
+        we will make your experience unforgetable.
+    </string>
+
+    <!-- Navigation Drawer -->
+    <string name="SmartFarming">Smart Farm</string>
+
+    <string name="horticulture">Horticulture</string>
+    <string name="livestock">Livestock</string>
+    <string name="crops">Crops</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share this App</string>
+    <string name="rate">Rate Us</string>
+
+
+    <!-- Fragment Tags -->
+    <string name="tag_fragment_livestock">Livestock</string>
+    <string name="tag_fragment_crops">Crops</string>
+    <string name="tag_fragment_horticulture">Horticulture</string>
+    <string name="tag_fragment_my_profile">My Profile</string>
+    <string name="tag_fragment_about_us">About Us</string>
+    <string name="tag_fragment_contact_us">Contact Us</string>
+    <string name="tag_fragment_share">Share this App</string>
+    <string name="tag_fragment_rate">Rate Us</string>
+
+
+    <string name="farmer">Farmer</string>
+    <string name="interested_in">Interested In:</string>
+    <string name="status">Status:</string>
+    <string name="single">Single</string>
+    <string name="txt_nameView">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="type">TYPE:</string>
+    <string name="name">NAME:</string>
+    <string name="description">DESCRIPTION:</string>
+    <string name="allready_a_member_login">Already a member, Login?</string>
+    <string name="resend_verification_email">Resend Verification email</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="current_password">Current Password:</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+
+    <string name="save">Save</string>
+    <string name="change_password">Change Password</string>
+
+    <!-- Intent Extras -->
+    <string name="intent_chatroom">intent_chatroom</string>
+
+
+    <!-- Dialog Names -->
+    <string name="dialog_change_photo">ChangePhotoDialog</string>
+    <string name="dialog_new_chatroom">NewChatroomDialog</string>
+
+
+    <!-- Firebase Database Nodes -->
+    <string name="dbnode_users">users</string>
+    <string name="dbnode_chatrooms">chatrooms</string>
+
+
+    <!-- Firebase Database Fields -->
+    <string name="field_chatroom_name">chatroom_name</string>
+    <string name="field_creator_id">creator_id</string>
+    <string name="field_security_level">security_level</string>
+    <string name="field_email">email</string>
+    <string name="field_name">name</string>
+    <string name="field_phone">phone</string>
+    <string name="field_profile_image">profile_image</string>
+    <string name="field_user_id">user_id</string>
+    <string name="field_chatroom_id">chatroom_id</string>
+    <string name="field_chatroom_messages">chatroom_messages</string>
+    <string name="field_message">message</string>
+    <string name="field_timestamp">timestamp</string>
+    <string name="action_search">Search</string>
+
+
+    <string-array name="Crops">
+        <item>Taro root (Nduma)</item>
+        <item>Amaranthus (Terere)</item>
+        <item>Jews Mallow (Mrenda/Murere)</item>
+        <item>Bullrush Millet (Mawele)</item>
+        <item>Sorghum (Mtama)</item>
+        <item>Pigeon Peas(Mbaazi)</item>
+        <item>Green Grams (Ndengu)</item>
+        <item>African Nightshade (Managu)</item>
+        <item>Collard Greens/Kales (Sukumawiki)</item>
+        <item>Swiss Chard (Spinach)</item>
+        <item>Dolichos Bean (Njahe)</item>
+        <item>Lentils (Kamande)</item>
+        <item>Jews Mallow (Mrenda)</item>
+        <item>Cowpeas Leaves (Kunde)</item>
+        <item>Finger millet (Wimbi)</item>
+        <item>Peas</item>
+        <item>Beans</item>
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Corn(Maize)</item>
+        <item>Cassava</item>
+        <item>soybeans</item>
+        <item>Sugar beet</item>
+        <item>SoyBean</item>
+        <item>Pigeon pea</item>
+        <item>Pearl millet</item>
+        <item>Rye</item>
+        <item>Finger Millet</item>
+        <item>Sisal</item>
+        <item>Black-eyed pea</item>
+        <item>Horse gram</item>
+        <item>Alfalfa</item>
+        <item>Rapeseed</item>
+        <item>Moth bean</item>
+
+    </string-array>
+
+    <string-array name="Livestock">
+        <item>Dog (Mbwa)</item>
+        <item>Cow (Ngombe)</item>
+        <item>Goat (Mbuzi)</item>
+        <item>Cat (Paka)</item>
+        <item>Chicken(Kuku)</item>
+        <item>Pig (Nguruwe)</item>
+        <item>Sheep (Kondoo)</item>
+        <item>Rabbit (Sungura)</item>
+        <item>Donkey (Punda)</item>
+        <item>Horse (Farasi)</item>
+        <item>Turkies</item>
+        <item>Doves</item>
+        <item>Ducks</item>
+        <item>Jews Mallow (Mrenda)</item>
+        <item>Cowpeas Leaves (Kunde)</item>
+        <item>Finger millet (Wimbi)</item>
+        <item>Beans</item>
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Corn(Maize)</item>
+        <item>Cassava</item>
+        <item>soybeans</item>
+    </string-array>
+
+    <string-array name="Horticulture">
+        <item>Capsicum (Pilipili Hoho)</item>
+        <item>Peppers (Pilipili)</item>
+        <item>Garlic (Kitunguu saumu)</item>
+        <item>Lemons (ndimu)</item>
+        <item>Grapes (zabibu)</item>
+        <item>Watermelon (tikiti-maji)</item>
+        <item>Mangoes (Maembe)</item>
+        <item>Lettuce (Saladi)</item>
+        <item>Pinnaples (Mananasi)</item>
+        <item>Avocadoes (Parachichi)</item>
+        <item>Oranges (Machungwa) </item>
+        <item>Plams (Mzabaru)</item>
+        <item>Roses (Maua(</item>
+        <item>Turnips</item>
+        <item>Orchides</item>
+        <item>Lillies</item>
+        <item>Carnations</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631041143432",
+    "firebase_url": "https://smartfarm-25a4a.firebaseio.com",
+    "project_id": "smartfarm-25a4a",
+    "storage_bucket": "smartfarm-25a4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631041143432:android:77d5f55560e138a605e53d",
+        "android_client_info": {
+          "package_name": "com.muchemi.smartfarm.activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631041143432-d0gdnpisli8pi3ca5qesahkp7ffj42cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC30n4Ck0M0O6_EkDU6qHwkmx735ytw6IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631041143432-d0gdnpisli8pi3ca5qesahkp7ffj42cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
