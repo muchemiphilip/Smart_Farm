@@ -2,6 +2,7 @@ package com.muchemi.smartfarm.activities;
 
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -65,7 +66,9 @@ public class CropsFragment extends Fragment {
                     // pop up again
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putBoolean(PreferenceKeys.FIRST_TIME_LOGIN, false);
-                    editor.apply();
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+                        editor.apply();
+                    }
                     dialogInterface.dismiss();
                 }
             });
